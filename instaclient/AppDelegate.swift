@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       print("There is a current user")
       
       let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      let vc = storyboard.instantiateViewController(withIdentifier: "InstafeedViewController")
+      let vc = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
       window?.rootViewController = vc
       // if there is a logged in user then load the home view controller
     }

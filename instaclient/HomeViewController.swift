@@ -78,6 +78,7 @@ class HomeViewController: UIViewController,  UITableViewDataSource, UITableViewD
     
     self.present(vc, animated: true, completion: nil)
   }
+  
   func imagePickerController(picker: UIImagePickerController,
                              didFinishPickingMediaWithInfo info: [String : AnyObject]) {
     
